@@ -45,6 +45,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb \
     vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Bluetooth_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_General_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_General_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Global_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Handset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Hdmi_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Headset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8917-tmo-snd-card/QRD_TMO_Speaker_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Bluetooth_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_General_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_General_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Global_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Handset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Hdmi_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Headset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8920-sku7-snd-card/QRD_SKU7_Speaker_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Bluetooth_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Bluetooth_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_General_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_General_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Global_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Global_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Handset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Handset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Hdmi_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Headset_cal.acdb \
+    vendor/xiaomi/santoni/proprietary/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/msm8940-sku6-snd-card/QRD_SKU6_Speaker_cal.acdb \
     vendor/xiaomi/santoni/proprietary/vendor/etc/camera/camera_config.xml:system/vendor/etc/camera/camera_config.xml \
     vendor/xiaomi/santoni/proprietary/vendor/etc/camera/csidtg_camera.xml:system/vendor/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/santoni/proprietary/vendor/etc/camera/csidtg_chromatix.xml:system/vendor/etc/camera/csidtg_chromatix.xml \
@@ -424,6 +445,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/santoni/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/santoni/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/DE.o.msm8937:system/etc/firmware/DE.o.msm8937 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b00:system/etc/firmware/cardapp.b00 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b01:system/etc/firmware/cardapp.b01 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b02:system/etc/firmware/cardapp.b02 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b03:system/etc/firmware/cardapp.b03 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b04:system/etc/firmware/cardapp.b04 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b05:system/etc/firmware/cardapp.b05 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.b06:system/etc/firmware/cardapp.b06 \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/cardapp.mdt:system/etc/firmware/cardapp.mdt \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/xiaomi/santoni/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/xiaomi/santoni/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/santoni/proprietary/etc/permissions/audiosphere.xml:system/etc/permissions/audiosphere.xml \
     vendor/xiaomi/santoni/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
