@@ -575,6 +575,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/santoni/proprietary/vendor/bin/pm-service:system/vendor/bin/pm-service \
     vendor/xiaomi/santoni/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/xiaomi/santoni/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/xiaomi/santoni/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/xiaomi/santoni/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
     vendor/xiaomi/santoni/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/xiaomi/santoni/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
