@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/lib/com.qualcomm.qti.ant@1.0.so:system/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/wayne/proprietary/lib/com.qualcomm.qti.dpm.api@1.0.so:system/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/wayne/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/xiaomi/wayne/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/wayne/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/wayne/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/xiaomi/wayne/proprietary/lib/lib-imsvtextutils.so:system/lib/lib-imsvtextutils.so \
@@ -73,6 +74,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/xiaomi/wayne/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
     vendor/xiaomi/wayne/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
+    vendor/xiaomi/wayne/proprietary/lib/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/wayne/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/wayne/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/wayne/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -100,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/lib64/com.qualcomm.qti.ant@1.0.so:system/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/wayne/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/wayne/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
+    vendor/xiaomi/wayne/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/xiaomi/wayne/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/wayne/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/wayne/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -111,6 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/lib64/libdpmctmgr.so:system/lib64/libdpmctmgr.so \
     vendor/xiaomi/wayne/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/wayne/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
+    vendor/xiaomi/wayne/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/wayne/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
     vendor/xiaomi/wayne/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/wayne/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
@@ -143,6 +147,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/xiaomi/wayne/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/wayne/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
+    vendor/xiaomi/wayne/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/xiaomi/wayne/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/xiaomi/wayne/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/xiaomi/wayne/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
@@ -960,7 +965,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/vendor.qti.hardware.limits@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.limits@1.0_vendor.so \
@@ -1241,7 +1246,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.latency@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
-    vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.limits@1.0_vendor.so \
