@@ -461,6 +461,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libarcsoft_beautyshot_exin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_exin.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_t.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_t.so \
+    vendor/xiaomi/wayne/proprietary/vendor/lib/libarcsoft_dualcam_refocus_rear_w.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_rear_w.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/xiaomi/wayne/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
