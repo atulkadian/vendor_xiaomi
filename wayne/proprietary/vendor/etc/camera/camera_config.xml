@@ -93,7 +93,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx376_sunny_back_i_dw9763</ActuatorName>
     <EepromName>wayne_imx376_sunny_back_i</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx376_sunny_cn_back_i_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_back_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_back_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <!-- <Position>BACK_AUX</Position> -->
@@ -119,7 +120,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx376_sunny_back_i_dw9763</ActuatorName>
     <EepromName>wayne_imx376_sunny_back_iii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx376_sunny_cn_back_iii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_back_iii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_back_iii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <!-- <Position>BACK_AUX</Position> -->
@@ -145,7 +147,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx376_ofilm_back_ii_dw9763</ActuatorName>
     <EepromName>wayne_imx376_ofilm_back_ii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx376_ofilm_cn_back_ii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx376_ofilm_cn_back_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_ofilm_india_back_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK_AUX</Position>
     <!-- <Position>BACK_AUX</Position> -->
@@ -171,7 +174,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx486_sunny_i_dw9763</ActuatorName> 
     <EepromName>wayne_imx486_sunny_i</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx486_sunny_cn_i_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx486_sunny_cn_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_sunny_india_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -196,7 +200,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx486_sunny_i_dw9763</ActuatorName> 
     <EepromName>wayne_imx486_sunny_iii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx486_sunny_cn_iii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx486_sunny_cn_iii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_sunny_india_iii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -221,7 +226,8 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>wayne_imx486_ofilm_ii_dw9763</ActuatorName> 
     <EepromName>wayne_imx486_ofilm_ii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx486_ofilm_cn_ii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx486_ofilm_cn_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx486_ofilm_india_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -245,7 +251,8 @@ LensInfo : Information of the lens present in the module.
     <SensorName>wayne_imx376_sunny_front_i</SensorName>
     <EepromName>wayne_imx376_sunny_front_i</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx376_sunny_cn_front_i_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx376_sunny_cn_front_i_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_sunny_india_front_i_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
@@ -269,7 +276,8 @@ LensInfo : Information of the lens present in the module.
     <SensorName>wayne_imx376_ofilm_front_ii</SensorName>
     <EepromName>wayne_imx376_ofilm_front_ii</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>wayne_imx376_ofilm_cn_front_ii_chromatix</ChromatixName>
+    <ChromatixName_china>wayne_imx376_ofilm_cn_front_ii_chromatix</ChromatixName_china>
+    <ChromatixName>wayne_imx376_ofilm_india_front_ii_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>FRONT</Position>
     <MountAngle>270</MountAngle>
