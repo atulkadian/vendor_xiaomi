@@ -934,11 +934,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libthermalclient \
     FingerprintExtensionService
-
-ifeq ($(TARGET_DEVICE),wayne)
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/wayne/proprietary/vendor/etc/MIUI_DualCamera_watermark_6X.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
-else
-PRODUCT_COPY_FILES += \
-    vendor/xiaomi/wayne/proprietary/vendor/etc/MIUI_DualCamera_watermark_A2.png:$(TARGET_COPY_OUT_VENDOR)/etc/MIUI_DualCamera_watermark.png
-endif
